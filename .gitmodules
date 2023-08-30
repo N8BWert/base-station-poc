@@ -1,0 +1,3 @@
+[submodule "submodules/robocup-fshare"]
+	path = submodules/robocup-fshare
+	url = https://github.com/RoboJackets/robocup-fshare.git
