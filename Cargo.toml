@@ -7,10 +7,12 @@ edition = "2021"
 
 [dependencies]
 ctrlc = "3.4.0"
-# embedded-nrf24l01 = { git = "https://github.com/N8BWert/embedded-nrf24l01.git" }
+sx127 = { git = "https://github.com/N8BWert/sx127" }
+embedded-hal = "0.2.7"
 
 [dependencies.rppal]
 version = "0.14.1"
+features = ["hal"]
 
 [dependencies.tokio]
 version = "1.32.0"
