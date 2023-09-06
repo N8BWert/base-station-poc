@@ -42,6 +42,7 @@ dependencies = [
 name = "base-station-poc"
 version = "0.1.0"
 dependencies = [
+ "bitfield-struct",
  "ctrlc",
  "embedded-hal 0.2.7",
  "rppal",
@@ -54,6 +55,17 @@ name = "bit_field"
 version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dc827186963e592360843fb5ba4b973e145841266c1357f7180c43526f2e5b61"
+
+[[package]]
+name = "bitfield-struct"
+version = "0.5.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eac32db62a43cf33353ce30b4a208b08193ea2086a1c6c004acb0073c706a29d"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
 
 [[package]]
 name = "bitflags"

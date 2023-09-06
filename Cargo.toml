@@ -9,6 +9,7 @@ edition = "2021"
 ctrlc = "3.4.0"
 sx127 = { git = "https://github.com/N8BWert/sx127" }
 embedded-hal = "0.2.7"
+bitfield-struct = "0.5.4"
 
 [dependencies.rppal]
 version = "0.14.1"
